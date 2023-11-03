@@ -1,0 +1,15 @@
+.site-footer {
+    background-color: #94accb;
+}
+
+.site-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    font-size: 20px;
+}
+
+.contact {
+    display: flex;
+}

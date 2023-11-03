@@ -12,12 +12,12 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<?php
-			/* translators: %s: CMS name, i.e. WordPress. */
-			printf( esc_html__( 'Réalisé par %s', 'ping-passion' ), 'moi-même' );
-			?>
-			
+		<div class="site-info">		
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Accueil</a>	
+			<div class="contact"></div>
+			<p>Téléphone : 01 45 82 43 95</p>
+			<p>Mail : contactparis@ping-passion.com</p>
+			</div>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

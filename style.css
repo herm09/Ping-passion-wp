@@ -71,6 +71,8 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 @import url(css/single-revetement.css);
 @import url(css/archive-bois.css);
 @import url(css/archive-revetement.css);
+@import url(css/footer.css);
+@import url(css/page.css);
 
 .site-header {
 	display: flex;
@@ -129,11 +131,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	justify-content: center;
     align-items: center;
 	padding: 20px;
-}
-
-.entry-content {
-	width: 40%;
-	margin: 0 auto;
 }
 
 .entry-content p {
