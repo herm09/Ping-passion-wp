@@ -1,0 +1,149 @@
+/*!
+Theme Name: Ping passion
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: ping-passion
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Ping passion is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Generic
+	- Normalize
+	- Box sizing
+# Base
+	- Typography
+	- Elements
+	- Links
+	- Forms
+## Layouts
+# Components
+	- Navigation
+	- Posts and pages
+	- Comments
+	- Widgets
+	- Media
+	- Captions
+	- Galleries
+# plugins
+	- Jetpack infinite scroll
+# Utilities
+	- Accessibility
+	- Alignments
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Generic
+--------------------------------------------------------------*/
+
+/* Normalize
+--------------------------------------------- */
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+	 ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+@import url(css/single-bois.css);
+@import url(css/single-revetement.css);
+@import url(css/archive-bois.css);
+@import url(css/archive-revetement.css);
+
+.site-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #94accb;
+	width: 100%;
+}
+
+.menu {
+	display: flex;
+	gap: 70px;
+	margin-block: 0;
+	width: 100%;
+	list-style: none;
+	text-decoration: none;
+	color: rgb(213, 212, 212);
+	align-items: center;
+}
+
+.site-branding img {
+	width: 30%; /*Recize le logo*/
+	height: auto;
+}
+
+.page_item a {
+	color: rgb(213, 212, 212); /*Couleur du lien accueil*/
+}
+
+.menu a {
+	display: flex;
+	color: rgb(213, 212, 212); /*Couleur des deux autres liens*/
+	gap: 70px;
+	font-size: 22px;
+}
+
+.menu ul {
+	display: flex;
+	padding-block: 30px;
+	list-style: none;
+	text-decoration: none;
+	padding: 20px;
+    gap: 70px;
+    padding-top: 7.5px;  
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.nav-menu .page_item {
+	font-size: 18px;
+}
+
+.entry-title {
+	display: flex;
+	font-size: 50px; /*Taille du titre accueil*/
+	justify-content: center;
+    align-items: center;
+	padding: 20px;
+}
+
+.entry-content {
+	width: 40%;
+	margin: 0 auto;
+}
+
+.entry-content p {
+	display: flex;
+	justify-content: center;
+	padding: 40px;
+	font-size: 25px;
+	width: 100%;
+}
+
+.site-footer {
+	font-size: 17px;
+}

@@ -1,0 +1,45 @@
+.single-bois {
+    background-color: aliceblue;
+}
+
+.bois-content h2 {
+    min-height: 150px;
+    font-size: 40px;
+    background-color: rgb(35, 35, 35);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /*centre au milieu du header*/
+    align-items: center; /*centre au milieu de la page*/
+}
+
+.bois-box_content {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bois-box_content img {
+    border: 2px solid rgba(90, 90, 90, 0.049);
+    width: 30%;
+    height: 30%;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s;
+}
+
+.bois-box_content img:hover {
+    box-shadow: 4px 3px 3px rgba(0, 0, 0, 0.211);
+    transform: scale(1.1);
+}
+
+.bois-box_content p {
+    display: flex;
+    font-size: 18px;
+    margin: 40px;
+    width: 70%;
+}
