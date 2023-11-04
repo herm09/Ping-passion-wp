@@ -1,5 +1,5 @@
 .site-footer {
-    background-color: #94accb;
+	background-color: rgb(186, 113, 12);
 }
 
 .site-info {
@@ -12,4 +12,12 @@
 
 .contact {
     display: flex;
+}
+
+.site-info a {
+    color: rgb(255, 255, 255);
+}
+
+.site-info p {
+    color: rgb(255, 255, 255);
 }

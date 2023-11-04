@@ -78,7 +78,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #94accb;
+	background-color: rgb(186, 113, 12);
 	width: 100%;
 }
 
@@ -89,7 +89,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	width: 600px;
 	list-style: none;
 	text-decoration: none;
-	color: rgb(213, 212, 212);
+	color: rgb(255, 255, 255);
 	align-items: center;
 }
 
@@ -99,12 +99,12 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 }
 
 .page_item a {
-	color: rgb(213, 212, 212); /*Couleur du lien accueil*/
+	color: rgb(255, 255, 255); /*Couleur du lien accueil*/
 }
 
 .menu a {
 	display: flex;
-	color: rgb(213, 212, 212); /*Couleur des deux autres liens*/
+	color: rgb(255, 255, 255); /*Couleur des deux autres liens*/
 	gap: 70px;
 	font-size: 22px;
 }

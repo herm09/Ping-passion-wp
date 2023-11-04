@@ -8,7 +8,7 @@
  */
 
 $dataRevetement = get_fields(); // récupère les données ACF
-var_dump($dataRevetement); // affiche les données ACF
+// var_dump($dataRevetement); // affiche les données ACF
 get_header();
 ?>
 
